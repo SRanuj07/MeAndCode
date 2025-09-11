@@ -1,7 +1,7 @@
 const accountID = 9770235584;
 let accountEmail = "anujkrsoni123@gmail.com";
 let accountPossword = "Anuj@12345";
-var accountCity = "Bangalore";
+accountCity = "Bangalore";
 console.log(accountID);
 
 // accountID = 1234567890; // Error: Assignment to constant variable.
@@ -10,3 +10,4 @@ accountEmail = "anujkrsoni1234@gmail.com"
 console.log(accountEmail);
 accountCity = "Mumbai"
 console.log(accountCity);
+console.table([accountID, accountEmail, accountPossword, accountCity]);
