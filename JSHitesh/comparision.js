@@ -14,7 +14,8 @@ console.log('' == false); // true
 console.log('' === false); // false
 
 console.log([] == false); // true
-console.log([] === false); // false
+// Comparing array and boolean with strict equality will always be false because they are different types and objects are compared by reference.
+console.log([] === false); // always false, arrays are objects and false is a boolean
 
 console.log([] == ''); // true
 console.log([] === ''); // false
